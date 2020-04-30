@@ -7,7 +7,7 @@ Docker Notes
 
 Docker commands
 
-Tip: USE `docker --help` instead of this
+Tip: USE  `docker --help` instead of this
 
 `docker version` - verify that docker engine is running and additional cli and server info
 
@@ -26,3 +26,5 @@ Tip: USE `docker --help` instead of this
 `docker container logs [containerName]` - logs for specified container name
 
 `docker container top [containerName]` - display the running processes of a container
+
+`docker container rm [first 3 values from containerID i.e. 81c] [add another 3 for next containerID]` - removes multiple non-running containers at once
