@@ -21,7 +21,7 @@ Tip: USE  `docker --help` instead of this
 
 `docker stop [containerID/imageName]` - stops container that is running on specified name or containerID (on linux if process is running on commandline ctrl+c works)
 
-`docker run --publish 8888:80 --detach(or -d) --name [Name] [imageName]` - runs container in the background, --name allows you to add a unique name for the container
+`docker run --publish(or -p) 8888:80 --detach(or -d) --name [Name] [imageName]` - runs container in the background, --name allows you to add a unique name for the container
 
 `docker container logs [containerName]` - logs for specified container name
 
