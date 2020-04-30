@@ -11,7 +11,9 @@ Docker commands
 
 `docker info` - additional info on docker engine, number of containers running etc
 
-`docker ps` - check processes running inside of docker engine
+`docker ps` - lists processes running inside of docker engine
+
+`docker container ls` - lists containers running
 
 `docker container run --publish 8888:80 [imageName]` - publishes the image to a container and runs it on localhost:8888 port (if image does not exist locally, pulls from hub.docker.com registry)
 
