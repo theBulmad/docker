@@ -32,3 +32,5 @@ Tip: USE  `docker --help` instead of this
 `docker container rm [first 3 values from containerID i.e. 81c] [add another 3 for next containerID]` - removes multiple non-running   containers at once
 
 `docker container run --publish 8888:80 --name webhost -d nginx:1.11 nginx -T` - example of command that specifies host listening port, verion of image and run on start
+
+`docker container run -it --name [name] [image] [argument e.g. bash]` - allows you to enter into the container using an interactive shell
