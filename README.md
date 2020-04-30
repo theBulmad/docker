@@ -25,7 +25,7 @@ Tip: USE  `docker --help` instead of this
 
 `docker start -ai [containerName]` - starts container with interactive shell
 
-`docker container exec -it [containerName] [command e.g. bash]` - runs an additional process on top of the existing process, exit kills the additional process
+`docker container exec -it [containerName] [command e.g. bash]` - runs an additional process on top of the existing container, exit kills the additional process
 
 `docker stop [containerID/imageName]` - stops container that is running on specified name or containerID (on linux if process is running on commandline ctrl+c works)
 
