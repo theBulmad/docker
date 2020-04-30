@@ -17,6 +17,8 @@ Tip: USE  `docker --help` instead of this
 
 `docker container ls` - lists running containers
 
+`docker pull [imageName]` - no need to explain
+
 `docker image ls` - lists images
 
 `docker container run --publish 8888:80 [imageName]` - publishes the image to a container and runs it on localhost:8888 port (if image does not exist locally, pulls from hub.docker.com registry)
