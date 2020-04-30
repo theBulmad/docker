@@ -21,7 +21,9 @@ Tip: USE  `docker --help` instead of this
 
 `docker container run --publish 8888:80 [imageName]` - publishes the image to a container and runs it on localhost:8888 port (if image does not exist locally, pulls from hub.docker.com registry)
 
-`docker start -ai [containerName]` - starts container
+`docker start [containerName]` - starts container
+
+`docker start -ai [containerName]` - starts container with interactive shell
 
 `docker stop [containerID/imageName]` - stops container that is running on specified name or containerID (on linux if process is running on commandline ctrl+c works)
 
