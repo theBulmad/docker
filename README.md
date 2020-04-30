@@ -7,7 +7,7 @@ Docker Notes
 
 Docker commands
 
-Tip: USE `docker container --help` instead of this
+Tip: USE `docker --help` instead of this
 
 `docker version` - verify that docker engine is running and additional cli and server info
 
