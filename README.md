@@ -1,11 +1,18 @@
 # docker
-Docker Notes
+
+# Docker Notes
 
 `Image` - the application we want to run
 
 `Container` - an instance of that image running as a process
 
-Docker commands
+# Docker tab-completion for windows powershell
+
+`Install-Module DockerCompletion -Scope CurrentUser`
+
+`Import-Module DockerCompletion`
+
+# Docker commands
 
 Tip: USE  `docker --help` instead of this
 
