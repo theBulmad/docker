@@ -56,7 +56,7 @@ Tip: USE  `docker --help` instead of this
 
 `docker network inspect [networkName]` - inspect a network
 
-`docker network create --driver` - create a network
+`docker network create [networkam]` - create a network
 
 `docker network connect` - attach a network to a container
 
