@@ -50,6 +50,18 @@ Tip: USE  `docker --help` instead of this
 
 `docker container run -it --name [name] [image] [command e.g. bash]` - allows you to enter into the container using an interactive shell
 
+# Docker Network
+
+`docker network ls` - show networks
+
+`docker network inspect [networkName]` - inspect a network
+
+`docker network create --driver` - create a network
+
+`docker network connect` - attach a network to a container
+
+`docker network disconnect` - detach a network from a container
+
 `docker container port [containerName]` - prints incoming traffic from outside port into inside port
 
 `docker container inspect --format '{{ .NetworkSettings.IPAddress }}' [containerName]` - check docker ip (grep also works)
