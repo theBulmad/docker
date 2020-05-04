@@ -49,3 +49,8 @@ Tip: USE  `docker --help` instead of this
 `docker container run --publish 8888:80 --name webhost -d nginx:1.11 nginx -T` - example of command that specifies host listening port, verion of image and run on start
 
 `docker container run -it --name [name] [image] [command e.g. bash]` - allows you to enter into the container using an interactive shell
+
+`docker container port [containerName]` - prints incoming traffic from outside port into inside port
+
+`docker container inspect --format '{{ .NetworkSettings.IPAddress }}' [containerName]` - check docker ip (grep also works)
+
