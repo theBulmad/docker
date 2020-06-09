@@ -70,15 +70,15 @@ Tip: USE  `docker --help` instead of this
 
 Use the official image as a parent image.
 
-`FROM node:current-slim`
+`FROM nginx:latest`
 
 Set the working directory.
 
-`WORKDIR /usr/src/app`
+`WORKDIR /usr/share/nginx/html`
 
 Copy the file from your host to your current location.
 
-`COPY package.json .`
+`COPY index.html . or COPY index.html index.html`
 
 Run the command inside your image filesystem.
 
